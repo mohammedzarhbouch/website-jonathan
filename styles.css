@@ -70,6 +70,8 @@ background-size: 64px 128px;
     margin-top: 200px;
     background: url(img/baby.png) no-repeat;
     margin-left: 50%;
+    border-radius: 20%;
+    border: solid 2px black;
     }  
 
     
@@ -102,3 +104,5 @@ background-size: 64px 128px;
     #myBtn:hover {
       background-color: rgb(47, 255, 0); 
     }
+
+   

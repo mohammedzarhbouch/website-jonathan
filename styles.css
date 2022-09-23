@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(97, 97, 97);
+    color: rgb(0, 0, 0);
+    background:linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+              linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+background-color:#708090;
+background-size: 64px 128px;
+}
+
+.top {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 rgb(255, 254, 254),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255); 
+  }
+
+  .block {
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    margin: 40px;
+    border-radius: 10%;
+    border: solid 1px black;
+    
+  }
+  .container  {
+    text-align: center;
+    width: 100%;
+    
+    
+  }
+
+  p.solid{
+    border-style: solid 5px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+    width: 196px;
+
+    
+
+
+}
+
+.b_pics{
+    width: 100%;
+    height: 60vh;
+    background: url(img/bpic.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+  
+
+  #baby {  
+    width: 200px;
+    height: 250px;
+    
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    margin-top: 200px;
+    background: url(img/baby.png) no-repeat;
+    margin-left: 50%;
+    }  
+
+    
+
+    .botblock{
+      display: inline-block;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 10%;
+    border: solid 1px black;
+    margin-top: -1000px;
+    }
+    
+    #myBtn {
+      display:inline-block ; 
+      position: fixed; 
+      bottom: 20px; 
+      right: 30px; 
+      border: solid 2px black; 
+      background-color: rgb(255, 0, 0); 
+      color: white; 
+      cursor: pointer; 
+      padding: 15px; 
+      border-radius: 10px; 
+      font-size: 18px; 
+    }
+    
+    #myBtn:hover {
+      background-color: rgb(47, 255, 0); 
+    }

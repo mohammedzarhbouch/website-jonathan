@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top">
+        <h1> deze website gaat over jonathan</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="block"> <p class="solid">Hera</p>
+            
+            jonathan heeft een hond en haar naam is Hera.
+            Hera's ras is mechelse herder en zij is bruin. 
+            zij is een van de 2 melsche herders dat hij heeft.
+        </div>
+        <div class="block"><p class="solid">info</p>
+          Jonathan is een persoon dat half nederlands kwart pools en irakees is.
+          Hij is in sittard geboren. en hij woont in schimmert.
+        </div>
+        <div class="block"><p></p> hobby's </p>
+            jonathan heef een paar verschillende hobby's.
+            hij speelt games zoals fifa en gta. ook gaat hij vaker naar de fitness. 
+        </div>
+      </div>
+
+      <div class="b_pics"> </div>
+
+      
+
+        <div id="baby"> </div>  
+
+        
+            <div class="container">
+        <div class="botblock"><p class="solid">jeugd</p> 
+            Jonathan is geboren in sittard. hij groeiden op in schimmert en maria hoop.
+            en hij ging naar België voor school. <br>(de sprong)
+        </div>
+        </div>
+
+        <!-- javascript type shit -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+      <script>
+        // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+      </script>
+</body>
+</html>
